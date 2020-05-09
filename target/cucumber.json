@@ -1,0 +1,726 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "login to the application with valid credentials",
+        "description": "",
+        "id": "login-scenarios;login-to-the-application-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 907284800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login Page and tries to login with \"\u003cvalid\u003e\" username and \"\u003cvalid\u003e\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cvalid\u003e",
+                  "offset": 47
+                },
+                {
+                  "val": "\u003cvalid\u003e",
+                  "offset": 70
+                }
+              ],
+              "location": "Test_Steps.user_is_on_Login_Page_and_tries_to_login_with_username_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8952388300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters  \"admin\" and  \"Alert1234\" and generates a unique access_token",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 14
+                },
+                {
+                  "val": "Alert1234",
+                  "offset": 27
+                }
+              ],
+              "location": "Test_Steps.user_enters_and_and_generates_a_unique_access_token(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3534500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is loggedIn \"successfully\" with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "successfully",
+                  "offset": 18
+                },
+                {
+                  "val": "200",
+                  "offset": 49
+                }
+              ],
+              "location": "Test_Steps.user_is_loggedIn_with_status_code(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 729364300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"success\" is \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 1
+                },
+                {
+                  "val": "true",
+                  "offset": 14
+                }
+              ],
+              "location": "Test_Steps.is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "login to the application with blank credentials",
+        "description": "",
+        "id": "login-scenarios;login-to-the-application-with-blank-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2519600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Login Page and tries to login with \"\u003cblank\u003e\" username and \"\u003cblank\u003e\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cblank\u003e",
+                  "offset": 47
+                },
+                {
+                  "val": "\u003cblank\u003e",
+                  "offset": 70
+                }
+              ],
+              "location": "Test_Steps.user_is_on_Login_Page_and_tries_to_login_with_username_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49035446400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters  \"\" and  \"\" and generates a unique access_token",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 14
+                },
+                {
+                  "val": "",
+                  "offset": 22
+                }
+              ],
+              "location": "Test_Steps.user_enters_and_and_generates_a_unique_access_token(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 463000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is loggedIn \"failed\" with status code 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failed",
+                  "offset": 18
+                },
+                {
+                  "val": "500",
+                  "offset": 43
+                }
+              ],
+              "location": "Test_Steps.user_is_loggedIn_with_status_code(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45530500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "\"success\" is \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 1
+                },
+                {
+                  "val": "false",
+                  "offset": 14
+                }
+              ],
+              "location": "Test_Steps.is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "login to the application with blank password",
+        "description": "",
+        "id": "login-scenarios;login-to-the-application-with-blank-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3229800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on Login Page and tries to login with \"\u003cvalid\u003e\" username and \"\u003cblank\u003e\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cvalid\u003e",
+                  "offset": 47
+                },
+                {
+                  "val": "\u003cblank\u003e",
+                  "offset": 70
+                }
+              ],
+              "location": "Test_Steps.user_is_on_Login_Page_and_tries_to_login_with_username_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9972618800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enters  \"admin\" and  \"\" and generates a unique access_token",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 14
+                },
+                {
+                  "val": "",
+                  "offset": 27
+                }
+              ],
+              "location": "Test_Steps.user_enters_and_and_generates_a_unique_access_token(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user is loggedIn \"failed\" with status code 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failed",
+                  "offset": 18
+                },
+                {
+                  "val": "500",
+                  "offset": 43
+                }
+              ],
+              "location": "Test_Steps.user_is_loggedIn_with_status_code(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28589600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "\"success\" is \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 1
+                },
+                {
+                  "val": "false",
+                  "offset": 14
+                }
+              ],
+              "location": "Test_Steps.is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "login to the application with blank username",
+        "description": "",
+        "id": "login-scenarios;login-to-the-application-with-blank-username;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3062600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User is on Login Page and tries to login with \"\u003cvalid\u003e\" username and \"\u003cblank\u003e\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cvalid\u003e",
+                  "offset": 47
+                },
+                {
+                  "val": "\u003cblank\u003e",
+                  "offset": 70
+                }
+              ],
+              "location": "Test_Steps.user_is_on_Login_Page_and_tries_to_login_with_username_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3653053600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user enters  \"\" and  \"Alert1234\" and generates a unique access_token",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 14
+                },
+                {
+                  "val": "Alert1234",
+                  "offset": 22
+                }
+              ],
+              "location": "Test_Steps.user_enters_and_and_generates_a_unique_access_token(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 204200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user is loggedIn \"failed\" with status code 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failed",
+                  "offset": 18
+                },
+                {
+                  "val": "500",
+                  "offset": 43
+                }
+              ],
+              "location": "Test_Steps.user_is_loggedIn_with_status_code(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22187200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "\"success\" is \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 1
+                },
+                {
+                  "val": "false",
+                  "offset": 14
+                }
+              ],
+              "location": "Test_Steps.is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "login to the application with invalid username and password",
+        "description": "",
+        "id": "login-scenarios;login-to-the-application-with-invalid-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1922400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User is on Login Page and tries to login with \"\u003cInvalid\u003e\" username and \"\u003cInvalid\u003e\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cInvalid\u003e",
+                  "offset": 47
+                },
+                {
+                  "val": "\u003cInvalid\u003e",
+                  "offset": 72
+                }
+              ],
+              "location": "Test_Steps.user_is_on_Login_Page_and_tries_to_login_with_username_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 789422500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user enters  \"Invalid_username\" and  \"Invalid_password\" and generates a unique access_token",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid_username",
+                  "offset": 14
+                },
+                {
+                  "val": "Invalid_password",
+                  "offset": 38
+                }
+              ],
+              "location": "Test_Steps.user_enters_and_and_generates_a_unique_access_token(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user is loggedIn \"failed\" with status code 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failed",
+                  "offset": 18
+                },
+                {
+                  "val": "500",
+                  "offset": 43
+                }
+              ],
+              "location": "Test_Steps.user_is_loggedIn_with_status_code(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33649800,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "\"success\" is \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 1
+                },
+                {
+                  "val": "false",
+                  "offset": 14
+                }
+              ],
+              "location": "Test_Steps.is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 64,
+        "name": "login to the application with valid username and Invalidpassword",
+        "description": "",
+        "id": "login-scenarios;login-to-the-application-with-valid-username-and-invalidpassword;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5177900,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User is on Login Page and tries to login with \"\u003cvalid\u003e\" username and \"\u003cInvalid\u003e\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cvalid\u003e",
+                  "offset": 47
+                },
+                {
+                  "val": "\u003cInvalid\u003e",
+                  "offset": 70
+                }
+              ],
+              "location": "Test_Steps.user_is_on_Login_Page_and_tries_to_login_with_username_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4873692000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user enters  \"admin\" and  \"Invalid_password\" and generates a unique access_token",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 14
+                },
+                {
+                  "val": "Invalid_password",
+                  "offset": 27
+                }
+              ],
+              "location": "Test_Steps.user_enters_and_and_generates_a_unique_access_token(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 263300,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user is loggedIn \"failed\" with status code 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failed",
+                  "offset": 18
+                },
+                {
+                  "val": "500",
+                  "offset": 43
+                }
+              ],
+              "location": "Test_Steps.user_is_loggedIn_with_status_code(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35646400,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "\"success\" is \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 1
+                },
+                {
+                  "val": "false",
+                  "offset": 14
+                }
+              ],
+              "location": "Test_Steps.is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 75,
+        "name": "login to the application with Invalid username and valid password",
+        "description": "",
+        "id": "login-scenarios;login-to-the-application-with-invalid-username-and-valid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3030200,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User is on Login Page and tries to login with \"\u003cinvalid\u003e\" username and \"\u003cInvalid\u003e\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cinvalid\u003e",
+                  "offset": 47
+                },
+                {
+                  "val": "\u003cInvalid\u003e",
+                  "offset": 72
+                }
+              ],
+              "location": "Test_Steps.user_is_on_Login_Page_and_tries_to_login_with_username_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9682637400,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user enters  \"Invalid_username\" and  \"Alert1234\" and generates a unique access_token",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid_username",
+                  "offset": 14
+                },
+                {
+                  "val": "Alert1234",
+                  "offset": 38
+                }
+              ],
+              "location": "Test_Steps.user_enters_and_and_generates_a_unique_access_token(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 247600,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user is loggedIn \"failed\" with status code 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "failed",
+                  "offset": 18
+                },
+                {
+                  "val": "500",
+                  "offset": 43
+                }
+              ],
+              "location": "Test_Steps.user_is_loggedIn_with_status_code(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35827700,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "\"success\" is \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 1
+                },
+                {
+                  "val": "false",
+                  "offset": 14
+                }
+              ],
+              "location": "Test_Steps.is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login Scenarios",
+    "description": "",
+    "id": "login-scenarios",
+    "keyword": "Feature",
+    "uri": "loginScenarios.feature"
+  }
+]
